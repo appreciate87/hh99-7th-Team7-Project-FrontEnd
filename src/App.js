@@ -1,18 +1,13 @@
 import React from 'react';
-import { createGlobalStyle } from 'styled-components';
 import './App.css';
+import Router from './shared/Router';
 
 function App() {
   return (
-      <GlobalStyle/>
+      <Router/>
   );
 }
 
 
-const GlobalStyle = createGlobalStyle`
-  body {
-    margin: 0;
-  }
-`;
 
 export default App;
